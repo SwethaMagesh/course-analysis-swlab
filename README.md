@@ -16,3 +16,4 @@ Analyze courses of IITB CS and help compare different courses!
 
   
 
+install poppler-utils for pdf to text conversion
