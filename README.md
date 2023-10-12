@@ -14,5 +14,11 @@ Analyze courses of IITB CS and help compare different courses!
 - Webpage to display & compare
 - Webpage to get feedback from prev coursework
 
+----
+
+install:
+selenium webdriver - firefox (check geckodriver n put in path)
+
+
   
 
