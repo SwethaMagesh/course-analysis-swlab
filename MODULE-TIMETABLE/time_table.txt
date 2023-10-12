@@ -1,0 +1,657 @@
+Timetable for Autumn Semester 2023-2024
+Course
+Code
+
+Slot
+
+Venue
+
+Course
+Code
+
+Slot
+
+Venue
+
+CS 101
+
+6 & 10
+
+LA202
+
+Computer Programming and Utilization
+
+Prof. Suyash Awate
+
+CS 604
+
+9
+
+SIC301
+
+Combinatorics
+
+Prof. Sundar Vishwanathan
+
+CS 105
+
+4
+
+LA202
+
+Discrete Structures
+
+Prof. Akshay S.
+
+CS 614
+
+10
+
+CC105
+
+Advanced Compilers
+
+Prof. Manas Thakur
+
+CS 152
+
+2
+
+SIC205
+
+Abstractions and Paradigms for Programming
+
+Prof. Manas Thakur
+
+CS 618
+
+9
+
+SIC205
+
+Program Analysis
+
+Prof. Uday Khedker
+
+CS 154
+
+L
+
+–
+
+Paradigms for Programming Laboratory
+
+Prof. Manas Thakur
+
+CS 626
+
+12
+
+LH301
+
+Speech and Natural Language Processing and the Web
+
+Prof. Pushpak Bhattacharyya
+
+CS 207
+
+2
+
+LH101
+
+Discrete Structures
+
+Prof. Diwan A.A.
+
+CS 631
+
+5
+
+CC101
+
+Implementation Techniques for Relational Database Systems
+
+Prof. S. Sudarshan
+
+CS 213
+
+1
+
+LH101
+
+Data Structures and Algorithms
+
+Prof. Ashutosh Kumar Gupta
+
+CS 635
+
+11
+
+LT002
+
+Information Retrieval & Mining for Hypertext & the Web
+
+Prof. Soumen Chakrabarti
+
+CS 215
+
+8
+
+LH101
+
+Data Analysis and Interpretation
+
+Prof. Ajit V. Rajwade/Prof. Pushpak
+
+CS 663
+
+12
+
+LH101
+
+Fundamentals of Digital Image Processing
+
+Prof. Ajit V. Rajwade
+
+CS 218 M
+
+5
+
+LA202
+
+Design and Analysis of Algorithms
+
+Prof. Abhiram Ranade
+
+CS 675
+
+11
+
+SIC305
+
+Computer Graphics
+
+Prof. Parag Chaudhuri
+
+CS 224 M
+
+5
+
+CC103
+
+Computer Networks
+
+Prof. Vinay J. Ribeiro
+
+CS 683
+
+15
+
+LC002
+
+Advanced Computer Architecture
+
+Prof. Biswabandan Panda
+
+CS 228 M
+
+5
+
+LA201
+
+Logic for Computer Science
+
+Prof. S. Krishna
+
+CS 699
+
+LX
+
+SL2
+
+Software Lab
+
+Prof. Bhaskaran Raman
+
+CS 230
+
+6
+
+LA001
+
+Digital Logic Design and Computer Architecture
+
+Prof. Biswabandan Panda
+
+CS 725
+
+5
+
+LA002
+
+Foundations of Machine Learning
+
+Prof. Sunita Sarawagi
+
+CS 232
+
+L2
+
+SL2
+
+Digital Logic Design and Computer Architecture Lab
+
+Prof. Biswabandan Panda
+
+CS 741
+
+12
+
+CC105
+
+Advanced Network Security and Cryptography
+
+Prof. Virendra Singh
+
+CS 293
+
+L4
+
+SL2
+
+Data Structures and Algorithms Lab
+
+Prof. Ashutosh Kumar Gupta
+
+CS 742
+
+14
+
+LA002
+
+Foundations of Network Security and Cryptography
+
+Prof. Kameswari Chebrolu
+
+CS 310
+
+4
+
+LA002
+
+Automata Theory
+
+Prof. Paritosh K. Pandya
+
+CS 744
+
+12
+
+CC103
+
+Design and Engineering of Computing Systems
+
+Prof. Varsha Apte
+
+CS 333
+
+L3
+
+Sl2
+
+Operating Systems Lab
+
+Prof. Puru Kulkarni
+
+CS 747
+
+14
+
+LA001
+
+Foundations of Intelligent and Learning Agents
+
+Prof. Shivaram Kalyanakrishnan
+
+CS 335
+
+L1
+
+SL2
+
+Artificial Intelligence and Machine Learning (Lab)
+
+Prof. Preethi Jyothi
+
+CS 758
+
+8
+
+SIC305
+
+Advanced Tools from Modern cryptography
+
+Prof. Manoj Prabhakaran
+
+CS 337
+
+2
+
+LH102
+
+Artificial Intelligence and Machine Learning
+
+Prof. Preethi Jyothi
+
+CS 768
+
+13
+
+CC101
+
+Learning with Graphs
+
+Prof. Abir De
+
+CS 347
+
+6
+
+LA002
+
+Operating Systems
+
+Prof. Puru Kulkarni
+
+CS 770
+
+13
+
+LC001
+
+Process Engineering
+
+Prof. R. K. Joshi
+
+CS 475
+
+11
+
+SIC305
+
+Computer Graphics
+
+Prof. Parag Chaudhuri
+
+CS 771
+
+1
+
+SIC205
+
+Foundations of verification and automated reasoning
+
+Prof. Bharat Adsul
+
+CS6001
+
+11
+
+LA001
+
+Game Theory and Algorithmic Mechanism Design
+
+Prof. Swaprava Nath
+
+CS 774
+
+12
+
+CC101
+
+Spectral Graph Theory
+
+Prof. Akash Kumar
+
+CS 601
+
+8
+
+LC002
+
+Algorithms and Complexity
+
+Prof. Sujoy Bhore
+
+CS 781
+
+10
+
+SIC201
+
+Formal Methods in Machine Learning
+
+Prof. Supratik Chakraborty
+
+CS 602
+
+10
+
+SIC301
+
+Applied Algorithms
+
+Prof. Rohit Gurjar
+
+CS 782
+
+6
+
+SIC205
+
+Algebra and Computation
+
+Prof. Milind Sohoni
+
+Course Title
+
+Instructor
+
+Course Title
+
+Instructor
+
+Lab: 2-4:55 pm
+Day
+
+Slot
+
+Software Lab SL2
+
+Monday
+
+L1
+
+CS 335
+
+Tuesday
+
+L2
+
+CS 232
+
+Wednesday
+
+LX
+
+CS 699
+
+Thursday
+
+L3
+
+CS 333
+
+Friday
+
+L4
+
+CS 293
+
+Software Lab
+
+CS101 Basement Lab
+
+Slot Pattern
+Time/Day
+
+8:30-9:25
+
+9:30-10:25
+
+10:35-11:30
+
+11:35-12:30
+
+L
+
+2:00-3:25
+
+3:30-4:55
+
+8A
+
+9A
+
+5:00 - 5:30
+
+5:30-6:55
+
+7:00-8:25
+
+12A
+
+13A
+
+R
+
+14A
+
+15A
+
+E
+
+XC
+
+XD
+
+A
+
+12B
+
+13B
+
+14B
+
+15B
+
+U
+
+Mon
+
+1A
+
+2A
+
+3A
+
+4A
+
+N
+______________L 1_____________
+
+B
+
+C
+
+Tue
+
+4B
+
+1B
+
+2B
+
+3B
+
+H
+R
+
+5A
+
+Wed
+
+6A
+
+Thu
+
+3C
+
+4C
+
+------------------------------
+
+1C
+
+2C
+
+C
+E
+S
+
+Fri
+
+5B
+
+6B
+
+S
+
+----------------------------------- L6
+
+------------------------------
+
+12.30 pm to 02:00 pm
+
+11A
+
+______________L 2_____________
+X1
+
+E
+
+7A
+----------------------------------- L5
+
+10A
+
+X2
+
+X3
+
+______________LX______________
+8B
+
+9B
+
+______________L 3_____________
+10B
+
+11B
+
+7B
+______________L 4_____________
+
+K
+
+
