@@ -23,10 +23,6 @@ if [ ! -f "$without_lab_data_file" ]; then
     mv "$without_lab_data" "$without_lab_data_file"
 fi
 
-tail -n +2 "$csv_file" > "$csv_file.tmp" && mv "$csv_file.tmp" "$csv_file"
-# Initialize the CSV file with a header
-# echo "Course Code, Slot, Venue, Course Title, Instructor" > "$csv_file"
-
 current_record=""
 found_record=false
 
@@ -45,5 +41,6 @@ while IFS= read -r line; do
 done < "$without_lab_data_file"
 
 sed -i '1s/.*/Course Code, Slot, Venue, Course Title, Instructor/' "$csv_file"
-sed -i 's/, ,/,/g' "$csv_file"
+sed -i 's/, ,/,/g;' "$csv_file"
+sed -i 's/, $//' "$csv_file"
 echo "Course records have been appended to $csv_file"
