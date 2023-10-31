@@ -31,7 +31,7 @@ while IFS= read -r line; do
     if [[ "$line" == "CS "* ]]; then
         if [ -n "$current_record" ]; then
             # Format the CSV record and append to the CSV file
-            formatted_record=$(echo "$current_record" | sed -e ':a;N;$!ba;s/\n\{1,\}/, /g; s/, ,/, /g')
+            formatted_record=$(echo "$current_record" | sed -e ':a;N;$!ba;s/\n\{1,\}/, /g')
             echo "$formatted_record" >> "$csv_file"
         fi
         current_record="$line"
