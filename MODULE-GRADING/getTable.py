@@ -17,7 +17,8 @@ def getTableFromXpath(path):
     try:
         head = driver.find_element(By.TAG_NAME, 'table')
         print(head.text)
-        table = driver.find_element(By.XPATH, "//table[@id='grades']//table//table")
+        table = driver.find_element(By.XPATH, "//table/tbody/tr[5]/td/table/tbody/tr/td/table")
+        # table = driver.find_element(By.XPATH, "//table[@id='grades']//table//table")
         print(table.text)
     except Exception as e:
         print(e.msg)
