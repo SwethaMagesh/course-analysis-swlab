@@ -10,6 +10,9 @@ time_table="time_table.txt"
 csv_file="tt_record.csv"
 without_lab_data_file="only_timetable.txt"
 
+rm -f "$time_table" "$csv_file" "$without_lab_data_file"
+touch $csv_file
+
 if [ ! -f "$time_table" ]; then
     pdftotext "$input_pdf" "$time_table"
 fi
@@ -42,5 +45,5 @@ while IFS= read -r line; do
 done < "$without_lab_data_file"
 
 sed -i '1s/.*/Course Code, Slot, Venue, Course Title, Instructor/' "$csv_file"
-
+sed -i 's/, ,/, /g' "$csv_file"
 echo "Course records have been appended to $csv_file"
