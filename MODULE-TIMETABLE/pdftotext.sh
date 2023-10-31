@@ -19,7 +19,7 @@ fi
 
 if [ ! -f "$without_lab_data_file" ]; then
     without_lab_data=$(mktemp)
-    sed '/^Lab/,$d' "$time_table" > "$without_lab_data"
+    sed '/Lab:/,$d' "$time_table" > "$without_lab_data"
     mv "$without_lab_data" "$without_lab_data_file"
 fi
 
@@ -45,5 +45,5 @@ while IFS= read -r line; do
 done < "$without_lab_data_file"
 
 sed -i '1s/.*/Course Code, Slot, Venue, Course Title, Instructor/' "$csv_file"
-sed -i 's/, ,/, /g' "$csv_file"
+sed -i 's/, ,/,/g' "$csv_file"
 echo "Course records have been appended to $csv_file"
