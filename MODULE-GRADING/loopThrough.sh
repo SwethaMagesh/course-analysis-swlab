@@ -1,3 +1,5 @@
+ rm grades.json
+ touch grades.json
  cd ../ASC-Grading/SingleFile
  for file in $(ls *html) ;
  do  

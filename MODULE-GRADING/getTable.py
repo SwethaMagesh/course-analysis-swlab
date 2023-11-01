@@ -31,8 +31,20 @@ def process_raw_text(raw_text, grade_dict, course_code):
     grade_dict["course"] = course_code
     
 def convert_dict_to_jsonfile(master_dict):
-    with open('grades.json', 'a') as fp:
-        json.dump(master_dict, fp)
+    with open('../../MODULE-GRADING/grades.json', 'r+') as fp:
+        # add a comma if the file is not empty
+        if os.stat('../../MODULE-GRADING/grades.json').st_size != 0:
+            # remove the last character ]
+            fp.seek(0, os.SEEK_END)
+            fp.seek(fp.tell() - 1, os.SEEK_SET)
+            fp.write(',')
+            json.dump(master_dict, fp)
+            fp.write(']')
+        else:
+        #  add [ if the file is empty
+            fp.write('[')        
+            json.dump(master_dict, fp)
+            fp.write(']')
 
 path = sys.argv[1]
 raw_text = getTableFromXpath(path)
