@@ -1,7 +1,7 @@
-#  cd ../ASC-Grading/
-#  for file in $(ls *html) ;
-#  do  
-#  python3 ../MODULE-GRADING/getTable.py $file;
-#   done
+ cd ../ASC-Grading/SingleFile
+ for file in $(ls *html) ;
+ do  
+ python3 ../../MODULE-GRADING/getTable.py $file;
+  done
 
-python3 ../MODULE-GRADING/getTable.py cs601.html
+# python3 ../MODULE-GRADING/getTable.py cs601.html
