@@ -6,9 +6,9 @@ if [ "$#" -ne 1 ]; then
 fi
 
 input_pdf="$1"
-time_table="time_table.txt"
-csv_file="tt_record.csv"
-without_lab_data_file="only_timetable.txt"
+time_table=$1"time_table.txt"
+csv_file=$1".csv"
+without_lab_data_file=$1"only_timetable.txt"
 
 rm -f "$time_table" "$csv_file" "$without_lab_data_file"
 touch $csv_file
