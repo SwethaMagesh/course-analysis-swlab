@@ -10,9 +10,14 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 def getTableFromXpath(path):
-    driver = webdriver.Chrome()
+    # make headless
+    options = webdriver.ChromeOptions()
+    options.add_argument('headless')
+
     abs_path = 'file:///' + os.path.split(os.path.abspath('.'))[0] + '/'+year+'/' + path
     print(abs_path)
+    # use options
+    driver = webdriver.Chrome(options=options)
     driver.get(abs_path)
     try:
         time.sleep(2)

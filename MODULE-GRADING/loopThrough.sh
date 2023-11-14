@@ -1,5 +1,4 @@
- rm grades.json
- touch grades.json
+
  cd ../ASC-Grading/$1
 #  $1 is year of grading stats
 
