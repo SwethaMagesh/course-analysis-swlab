@@ -1,9 +1,12 @@
  rm grades.json
  touch grades.json
- cd ../ASC-Grading/SingleFile
+ cd ../ASC-Grading/$1
+#  $1 is year of grading stats
+
  for file in $(ls *html) ;
  do  
- python3 ../../MODULE-GRADING/getTable.py $file;
+ touch ../../MODULE-GRADING/$1grades.json
+ python3 ../../MODULE-GRADING/getTable.py $file $1;
   done
 
 # python3 ../MODULE-GRADING/getTable.py cs601.html

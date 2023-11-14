@@ -10,12 +10,12 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 def getTableFromXpath(path):
-    driver = webdriver.Edge()
-    abs_path = 'file:///' + os.path.split(os.path.abspath('.'))[0] + '/SingleFile/' + path
+    driver = webdriver.Chrome()
+    abs_path = 'file:///' + os.path.split(os.path.abspath('.'))[0] + '/'+year+'/' + path
     print(abs_path)
     driver.get(abs_path)
     try:
-        time.sleep(5)
+        time.sleep(2)
         table = driver.find_element(By.XPATH, "//table/tbody/tr[5]/td/table/tbody/tr/td/table")
         # table = driver.find_element(By.XPATH, "//table[@id='grades']//table//table")
         return table.text
@@ -24,16 +24,18 @@ def getTableFromXpath(path):
         print(e.msg)    
 
 def process_raw_text(raw_text, grade_dict, course_code):
+
     for line in raw_text.split('\n')[1:]:        
         line = line.split(' ')
         if len(line) == 2:
             grade_dict[line[0]] = line[1]
     grade_dict["course"] = course_code
+    grade_dict["year"] = year
     
 def convert_dict_to_jsonfile(master_dict):
-    with open('../../MODULE-GRADING/grades.json', 'r+') as fp:
+    with open('../../MODULE-GRADING/'+year+'grades.json', 'r+') as fp:
         # add a comma if the file is not empty
-        if os.stat('../../MODULE-GRADING/grades.json').st_size != 0:
+        if os.stat('../../MODULE-GRADING/'+year+'grades.json').st_size != 0:
             # remove the last character ]
             fp.seek(0, os.SEEK_END)
             fp.seek(fp.tell() - 1, os.SEEK_SET)
@@ -47,6 +49,7 @@ def convert_dict_to_jsonfile(master_dict):
             fp.write(']')
 
 path = sys.argv[1]
+year = sys.argv[2]
 raw_text = getTableFromXpath(path)
 grade_dict = {}
 master_dict = {}
