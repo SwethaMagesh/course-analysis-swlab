@@ -20,3 +20,6 @@ install:
 selenium webdriver - firefox (check geckodriver n put in path)
 
 install poppler-utils for pdf to text conversion
+
+flask
+flask_cors
