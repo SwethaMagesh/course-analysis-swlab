@@ -1,0 +1,538 @@
+Timetable for Autumn Semester 2022-2023
+Course
+Code
+
+Slot
+
+Venue
+
+Course
+Code
+
+Slot
+
+Venue
+
+CS 101
+
+—
+
+TBD
+
+Prof. Ajit Rajwade
+
+CS 614
+
+12
+
+CC 101 Advanced Compilers
+
+Prof. Virendra Singh
+
+CS 207
+
+2
+
+LH 301 Discrete Structures
+
+Prof. Diwan A.A.
+
+CS 618
+
+10
+
+CC 101 Program Analysis
+
+Prof. Uday Khedker
+
+CS 213
+
+1
+
+LH 301 Data Structures and Algorithms
+
+Prof. Milind Sohoni
+
+CS 626
+
+1
+
+CC 101 Speech and Natural Language Processing and the Web
+
+Prof. Pushpak Bhattacharyya
+
+CS 215
+
+6
+
+LH 102 Data Analysis and Interpretation
+
+Prof. Suyash Awate
+
+CS 631
+
+5
+
+CC 101
+
+CS 218 M
+
+5
+
+LA 002 Design and Analysis of Algorithms
+
+Prof. Paritosh K. Pandya
+
+CS 635
+
+14
+
+CC 101 Information Retrieval & Mining for Hypertext & the Web
+
+Prof. Soumen Chakrabarti
+
+CS 224 M
+
+5
+
+VMCC33 Computer Networks
+
+Prof. Vinay J. Ribeiro
+
+CS 675
+
+10
+
+CC 103 Computer Graphics
+
+Prof. Parag Chaudhuri
+
+CS 228 M
+
+5
+
+LH 101 Logic for Computer Science
+
+Prof. S. Krishna
+
+CS 683
+
+4
+
+CC 101 Advanced Computer Architecture
+
+Prof. Virendra Singh
+
+CS 251
+
+LX/3
+
+SL/CC
+103
+
+Logic for Computer Science
+
+Prof. Kavi Arya
+
+CS 699
+
+LX
+
+CS 293
+
+L4
+
+SL
+
+Data Structures and Algorithms Lab
+
+Prof. Supratik Chakraborty
+
+CS 725
+
+11
+
+LH 101 Foundations of Machine Learning
+
+Prof. Preethi Jyothi
+
+CS 310
+
+6
+
+Prof. G Sivakumar
+
+CS 741
+
+12
+
+CC 103 Advanced Network Security and Cryptography
+
+Prof. Bernard Menezes
+
+CS 333
+
+L1
+
+SL
+
+Operating Systems Lab
+
+Prof. Puru Kulkarni / Umesh Bellur
+
+CS 742
+
+5
+
+CC 103 Foundations of Network Security and Cryptography
+
+Prof. Kameswari Chebrolu
+
+CS 335
+
+L3
+
+SL
+
+Artificial Intelligence and Machine Learning
+(Lab)
+
+Prof. Abir De
+
+CS 744
+
+9
+
+CC 103 Design and Engineering of Computing Systems
+
+Prof. Mythili Vutukuru
+
+CS 337
+
+12
+
+LH 101 Artificial Intelligence and Machine Learning
+
+Prof. Abir De
+
+CS 747
+
+14
+
+LA 001 Foundations of Intelligent and Learning Agents
+
+Prof. Shivaram Kalyanakrishnan
+
+CS 347
+
+2
+
+CC 103 Operating Systems
+
+Prof. Puru Kulkarni / Umesh Bellur
+
+CS 761
+
+13
+
+SIC 201 Derandomization and Pseudorandomness
+
+Prof. Rohit Gurjar
+
+CS 433
+
+13
+
+CC 101 Automated Reasoning
+
+Prof. Ashutosh Kumar Gupta
+
+CS 770
+
+13
+
+CC 105 Process Engineering
+
+Prof. R. K. Joshi
+
+CS 449
+
+2
+
+CC 101 Topics in Artificial Intelligence Programming
+
+Prof. G Sivakumar
+
+CS 771
+
+2
+
+CC 105 Foundations of verification and automated reasoning
+
+Prof. Bharat Adsul
+
+CS 475/675
+
+10
+
+CC 103 Computer Graphics
+
+Prof. Parag Chaudhuri
+
+CS 773
+
+6
+
+CC 105 Computer Architecture for Performance and Security
+
+Prof. Biswabandan Panda
+
+CS 601
+
+8
+
+CC 103 Algorithms and Complexity
+
+Prof. Mrinal Kumar
+
+CS 780
+
+6
+
+SIC 301 Critical Thinking for the Digital Age
+
+Prof. Om Damani
+
+CS 604
+
+9
+
+CC 105 Combinatorics
+
+Prof. Sundar Vishwanathan
+
+CS6001
+
+11
+
+CC 103 Game Theory and Algorithmic Mechanism Design
+
+Prof. Swaprava Nath
+
+Course Title
+Computer Programming and Utilization
+
+LA 001 Automata Theory
+
+Lab: 2-4:55 pm
+
+Instructor
+
+SL
+
+Course Title
+
+Implementation Techniques for Relational Database
+Systems
+
+Software Lab
+
+Instructor
+
+Prof. S. Sudarshan
+
+Prof. Bhaskaran Raman
+
+Day
+
+Slot
+
+Software Lab SL1
+
+Monday
+
+L1
+
+CS 333
+
+Tuesday
+
+L2
+
+Wednesday
+
+LX
+
+CS 251
+
+Thursday
+
+L3
+
+CS 335
+
+Friday
+
+L4
+
+CS 293
+
+Software Lab
+
+CS101 Basement Lab
+
+CS 699
+
+Slot Pattern
+Time
+8:30-9:25
+
+9:30-10:25
+
+10:35-11:30
+
+11:35-12:30
+
+Day
+
+L
+
+2:00-3:25
+
+3:30-4:55
+
+8A
+
+9A
+
+5:00 - 5:30
+
+5:30-6:55
+
+7:00-8:25
+
+12A
+
+13A
+
+14A
+
+15A
+
+XC
+
+XD
+
+12B
+
+13B
+
+14B
+
+15B
+
+U
+
+Mon
+
+1A
+
+2A
+
+3A
+
+4A
+
+N
+______________L 1_____________
+C
+
+Tue
+
+4B
+
+1B
+
+2B
+
+3B
+
+H
+R
+
+5A
+
+Wed
+
+6A
+
+E
+
+------------------------------
+
+C
+
+7A
+----------------------------------- L5
+
+10A
+
+11A
+
+______________L 2_____________
+X1
+
+B
+
+X2
+
+R
+
+X3
+E
+
+______________LX______________
+
+E
+8B
+
+Thu
+
+3C
+
+4C
+
+1C
+
+2C
+
+9B
+
+S
+
+A
+
+______________L 3_____________
+S
+5B
+
+Fri
+
+6B
+
+12.30 pm to 02:00 pm
+
+10B
+
+11B
+
+7B
+----------------------------------- L6
+
+------------------------------
+
+______________L 4_____________
+
+K
+
+
