@@ -6,7 +6,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 input_pdf="$1"
-time_table=$1"time_table.txt"
+time_table=$1"time_table.txt" 
 without_lab_data_file=$1"only_timetable.txt"
 
 rm -f "$time_table" "$without_lab_data_file"

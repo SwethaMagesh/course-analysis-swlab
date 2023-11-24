@@ -98,7 +98,7 @@ CS775      13     CC 105   Advanced Computer Graphics                          P
 
    CS6002      8      CC 101   Selected Areas of Mechanism Design                   Prof. Swaprava Nath          
 CS779      11     CC 101   Extremal Combinatorics                              Prof. Vishwanathan Sundar
-
+
 CS603     9              CC 101       Geometric Algorithms                                                         Prof. Sujoy Bhore                 
 CS781     8                  SIC 301          Formal Methods in Machine Learning           Prof. Supratik Chakraborty
 

@@ -1,326 +1,86 @@
-Timetable for Autumn Semester 2022-2023
-Course
-Code
+                                                                            Timetable for Autumn Semester 2022-2023
+ Course                                                                                                          Course
+             Slot   Venue                     Course Title                                  Instructor                    Slot   Venue                           Course Title                                  Instructor
+  Code                                                                                                            Code
 
-Slot
+  
+CS101      —      TBD     Computer Programming and Utilization           Prof. Ajit Rajwade                   
+CS614   12     CC 101 Advanced Compilers                                       Prof. Virendra Singh
 
-Venue
+  
+CS207      2     LH 301 Discrete Structures                              Prof. Diwan A.A.                     
+CS618   10     CC 101 Program Analysis                                         Prof. Uday Khedker
 
-Course
-Code
+  
+CS213      1     LH 301 Data Structures and Algorithms                   Prof. Milind Sohoni                  
+CS626    1     CC 101 Speech and Natural Language Processing and the Web       Prof. Pushpak Bhattacharyya
 
-Slot
+                                                                                                                                          Implementation Techniques for Relational Database
+  
+CS215      6     LH 102 Data Analysis and Interpretation                 Prof. Suyash Awate                   
+CS631    5     CC 101                                                          Prof. S. Sudarshan
+                                                                                                                                          Systems
 
-Venue
 
-CS 101
+CS218 M      5     LA 002 Design and Analysis of Algorithms                Prof. Paritosh K. Pandya             
+CS635   14     CC 101 Information Retrieval & Mining for Hypertext & the Web   Prof. Soumen Chakrabarti
 
-—
 
-TBD
+CS224 M      5     VMCC33 Computer Networks                                Prof. Vinay J. Ribeiro               
+CS675   10     CC 103 Computer Graphics                                        Prof. Parag Chaudhuri
 
-Prof. Ajit Rajwade
 
-CS 614
+CS228 M      5     LH 101 Logic for Computer Science                       Prof. S. Krishna                     
+CS683    4     CC 101 Advanced Computer Architecture                           Prof. Virendra Singh
 
-12
+                     SL/CC
+  
+CS251     LX/3            Logic for Computer Science                     Prof. Kavi Arya                      
+CS699   LX       SL     Software Lab                                           Prof. Bhaskaran Raman
+                      103
 
-CC 101 Advanced Compilers
+  
+CS293      L4      SL     Data Structures and Algorithms Lab             Prof. Supratik Chakraborty           
+CS725   11     LH 101 Foundations of Machine Learning                          Prof. Preethi Jyothi
 
-Prof. Virendra Singh
+  
+CS310      6     LA 001 Automata Theory                                  Prof. G Sivakumar                    
+CS741   12     CC 103 Advanced Network Security and Cryptography               Prof. Bernard Menezes
 
-CS 207
+  
+CS333      L1      SL     Operating Systems Lab                          Prof. Puru Kulkarni / Umesh Bellur   
+CS742    5     CC 103 Foundations of Network Security and Cryptography         Prof. Kameswari Chebrolu
 
-2
+                             Artificial Intelligence and Machine Learning
+  
+CS335      L3      SL                                                    Prof. Abir De                        
+CS744    9     CC 103 Design and Engineering of Computing Systems              Prof. Mythili Vutukuru
+                             (Lab)
 
-LH 301 Discrete Structures
+  
+CS337     12     LH 101 Artificial Intelligence and Machine Learning     Prof. Abir De                        
+CS747   14     LA 001 Foundations of Intelligent and Learning Agents           Prof. Shivaram Kalyanakrishnan
 
-Prof. Diwan A.A.
+  
+CS347      2     CC 103 Operating Systems                                Prof. Puru Kulkarni / Umesh Bellur   
+CS761   13     SIC 201 Derandomization and Pseudorandomness                    Prof. Rohit Gurjar
 
-CS 618
+  
+CS433     13     CC 101 Automated Reasoning                              Prof. Ashutosh Kumar Gupta           
+CS770   13     CC 105 Process Engineering                                      Prof. R. K. Joshi
 
-10
+  
+CS449      2     CC 101 Topics in Artificial Intelligence Programming    Prof. G Sivakumar                    
+CS771    2     CC 105 Foundations of verification and automated reasoning      Prof. Bharat Adsul
 
-CC 101 Program Analysis
 
-Prof. Uday Khedker
+CS475/675   10     CC 103 Computer Graphics                                Prof. Parag Chaudhuri                
+CS773    6     CC 105 Computer Architecture for Performance and Security       Prof. Biswabandan Panda
 
-CS 213
+  
+CS601      8     CC 103 Algorithms and Complexity                        Prof. Mrinal Kumar                   
+CS780    6     SIC 301 Critical Thinking for the Digital Age                   Prof. Om Damani
 
-1
-
-LH 301 Data Structures and Algorithms
-
-Prof. Milind Sohoni
-
-CS 626
-
-1
-
-CC 101 Speech and Natural Language Processing and the Web
-
-Prof. Pushpak Bhattacharyya
-
-CS 215
-
-6
-
-LH 102 Data Analysis and Interpretation
-
-Prof. Suyash Awate
-
-CS 631
-
-5
-
-CC 101
-
-CS 218 M
-
-5
-
-LA 002 Design and Analysis of Algorithms
-
-Prof. Paritosh K. Pandya
-
-CS 635
-
-14
-
-CC 101 Information Retrieval & Mining for Hypertext & the Web
-
-Prof. Soumen Chakrabarti
-
-CS 224 M
-
-5
-
-VMCC33 Computer Networks
-
-Prof. Vinay J. Ribeiro
-
-CS 675
-
-10
-
-CC 103 Computer Graphics
-
-Prof. Parag Chaudhuri
-
-CS 228 M
-
-5
-
-LH 101 Logic for Computer Science
-
-Prof. S. Krishna
-
-CS 683
-
-4
-
-CC 101 Advanced Computer Architecture
-
-Prof. Virendra Singh
-
-CS 251
-
-LX/3
-
-SL/CC
-103
-
-Logic for Computer Science
-
-Prof. Kavi Arya
-
-CS 699
-
-LX
-
-CS 293
-
-L4
-
-SL
-
-Data Structures and Algorithms Lab
-
-Prof. Supratik Chakraborty
-
-CS 725
-
-11
-
-LH 101 Foundations of Machine Learning
-
-Prof. Preethi Jyothi
-
-CS 310
-
-6
-
-Prof. G Sivakumar
-
-CS 741
-
-12
-
-CC 103 Advanced Network Security and Cryptography
-
-Prof. Bernard Menezes
-
-CS 333
-
-L1
-
-SL
-
-Operating Systems Lab
-
-Prof. Puru Kulkarni / Umesh Bellur
-
-CS 742
-
-5
-
-CC 103 Foundations of Network Security and Cryptography
-
-Prof. Kameswari Chebrolu
-
-CS 335
-
-L3
-
-SL
-
-Artificial Intelligence and Machine Learning
-(Lab)
-
-Prof. Abir De
-
-CS 744
-
-9
-
-CC 103 Design and Engineering of Computing Systems
-
-Prof. Mythili Vutukuru
-
-CS 337
-
-12
-
-LH 101 Artificial Intelligence and Machine Learning
-
-Prof. Abir De
-
-CS 747
-
-14
-
-LA 001 Foundations of Intelligent and Learning Agents
-
-Prof. Shivaram Kalyanakrishnan
-
-CS 347
-
-2
-
-CC 103 Operating Systems
-
-Prof. Puru Kulkarni / Umesh Bellur
-
-CS 761
-
-13
-
-SIC 201 Derandomization and Pseudorandomness
-
-Prof. Rohit Gurjar
-
-CS 433
-
-13
-
-CC 101 Automated Reasoning
-
-Prof. Ashutosh Kumar Gupta
-
-CS 770
-
-13
-
-CC 105 Process Engineering
-
-Prof. R. K. Joshi
-
-CS 449
-
-2
-
-CC 101 Topics in Artificial Intelligence Programming
-
-Prof. G Sivakumar
-
-CS 771
-
-2
-
-CC 105 Foundations of verification and automated reasoning
-
-Prof. Bharat Adsul
-
-CS 475/675
-
-10
-
-CC 103 Computer Graphics
-
-Prof. Parag Chaudhuri
-
-CS 773
-
-6
-
-CC 105 Computer Architecture for Performance and Security
-
-Prof. Biswabandan Panda
-
-CS 601
-
-8
-
-CC 103 Algorithms and Complexity
-
-Prof. Mrinal Kumar
-
-CS 780
-
-6
-
-SIC 301 Critical Thinking for the Digital Age
-
-Prof. Om Damani
-
-CS 604
-
-9
-
-CC 105 Combinatorics
-
-Prof. Sundar Vishwanathan
-
-CS6001
-
-11
-
-CC 103 Game Theory and Algorithmic Mechanism Design
-
-Prof. Swaprava Nath
-
-Course Title
-Computer Programming and Utilization
-
-LA 001 Automata Theory
+  
+CS604      9     CC 105 Combinatorics                                    Prof. Sundar Vishwanathan            CS6001   11     CC 103 Game Theory and Algorithmic Mechanism Design             Prof. Swaprava Nath
 

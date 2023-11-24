@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>course-analysis-IITB-Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Analysis - IITB Page</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href ="style.css">
+  <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
   <!-- include bootstrap js and query -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -11,34 +13,41 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <!-- bootstrap nav bar -->
-    <nav class="navbar-title">
-        <span class="navbar-text">IIT BOMBAY</span>
-    </nav>
-
-    <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-6">
-            <div class="input-group">
-              <input type="text" id="searchBar" class="form-control" placeholder="Search">
-            </div>
+  <!-- Bootstrap nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <a class="navbar-brand" href="#">
+      <img src="IITBlogo.png" width="50" height="50" class="d-inline-block align-top" alt="IITB Logo">
+    </a>
+    <span class="navbar-text">IIT BOMBAY</span>
+  </nav>
+  <br>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="input-group mb-3 position-relative">
+          <input type="text" id="searchBar" class="form-control" placeholder="Enter Course Code" onkeydown="handleKeyDown(event)">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary bg-info text-white" type="button" onclick="searchCourse">Search</button>
           </div>
         </div>
+         <div class="col-md-6" id="courseDetailsContainer" style="display: none;">
+         
+          <h2 class="text-center">Course Details</h2>
+          <br>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Attribute</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+            <tbody id="courseDetailsBody">
+              <!-- Table body will be populated dynamically using JavaScript -->
+            </tbody>
+          </table>
+        </div>
       </div>
-
- <h2>Course Details</h2>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Attribute</th>
-          <th>Value</th>
-        </tr>
-      </thead>
-      <tbody id="courseDetailsBody">
-        <!-- Table body will be populated dynamically using JavaScript -->
-      </tbody>
-    </table>
-      
-      
+    </div>
+  </div>
 </body>
 </html>

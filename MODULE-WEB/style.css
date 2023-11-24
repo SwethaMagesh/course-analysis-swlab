@@ -10,21 +10,5 @@
     font-weight: bold;
 
 }
-/* body {
-    background-image: url('iitbombay.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-  }
 
-  body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    z-index: -1;
-  } */
+
