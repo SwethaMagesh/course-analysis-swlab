@@ -15,7 +15,6 @@ function searchCourse() {
 }
 
 function populateCourseDetails(courseCode) {
-  // Replace this with your actual API endpoint
   const apiUrl = `http://127.0.0.1:5000/api/v1.0/courseDetails?code=${courseCode}`;
 
   // Fetch data from the API
@@ -26,26 +25,27 @@ function populateCourseDetails(courseCode) {
     .then((data) => {
       // Populate the table with the response data
       const tableBody = document.getElementById("courseDetailsBody");
-      // append the following rows to table body. clear existing
       tableBody.innerHTML = "";
+      
+      // append the following rows to table body. clear existing
       const order = [
-        "code",
         "title",
-        "instructor",
         "year",
         "semester",
+        "instructor",
+        "venue",
         "slot",
         "clashing_courses",
-        "venue",
         "difficulty",
         "strength",
       ];
 
       order.forEach((key) => {
         if (data.hasOwnProperty(key)) {
-          const row = document.createElement("tr");
+          const row = tableBody.insertRow("tr");
           const attributeCell = document.createElement("td");
           const valueCell = document.createElement("td");
+          row.classList.add("text-center");
 
           valueCell.textContent = formatValue(data[key]);
           if (key == "code") {
@@ -54,9 +54,18 @@ function populateCourseDetails(courseCode) {
 
           if (key == "clashing_courses") {
             key = "Clashing Courses";
+            row.classList.add("table-danger");
           }
-          
-          attributeCell.innerHTML = formatKey(key);
+
+          if (key == "difficulty") {
+            row.classList.add("table-warning");
+          }
+
+          if (key == "strength") {
+            row.classList.add("table-success");
+          }
+
+          attributeCell.innerHTML = formatValue(key);
           attributeCell.classList.add("font-weight-bold");
           row.appendChild(attributeCell);
           row.appendChild(valueCell);
@@ -64,21 +73,16 @@ function populateCourseDetails(courseCode) {
         }
       });
 
-      tableBody.style.display = "block";
-      fetchImages(courseCode);
-      return true;
+      // tableBody.style.display = "block";
+      // fetchImages(courseCode);
     })
     .catch((error) => {
       console.error("Error fetching data:", error);
       tableBody.style.display = "none";
-      return false;
     });
-  // return true if data is found
 }
-function formatKey(key) {
-  // Capitalize the first letter of each word
-  return key.replace(/(?:^|\s)\S/g, (char) => char.toUpperCase());
-}
+
+
 function formatValue(value) {
   // Format the value as needed (e.g., capitalize the first letter)
   return String(value).charAt(0).toUpperCase() + String(value).slice(1);
@@ -91,26 +95,32 @@ async function fetchImages(filename) {
     const data = await response.json();
 
     const imageContainer = document.getElementById("imageContainer");
-    if (data.image_paths.length === 0) {
-      console.log(data);
-      imageContainer.innerHTML = "No grading stats found.";
-      return;
-    }
-    imageContainer.innerHTML = "";
+   
+      imageContainer.innerHTML = "";
+      if(data.image_paths.length != 0){
+      imageContainer.innerHTML = "Grading Plots for Previous Years";}
+      imageContainer.classList.add("text-center");
+      imageContainer.classList.add("h4");
 
-    data.image_paths.forEach((image) => {
-      const img = document.createElement("img");
-      img.src = image.path;
-      img.alt = `Graph analysis for ${image.year} year`;
+      data.image_paths.forEach((image) => {
+        const fig = document.createElement("figure");
+        fig.classList.add("mx-auto");
 
-      const heading = document.createElement("h6");
-      heading.classList.add("text-center");
-      heading.classList.add("font-weight-bold");
-      heading.textContent = `Year: ${image.year}`;
+        const img = document.createElement("img");
+        img.src = image.path;
+        img.alt = `Graph analysis for ${image.year} year`;
+        img.height = 400;
+        img.width = 600;
 
-      imageContainer.appendChild(heading);
-      imageContainer.appendChild(img);
-    });
+        const heading = document.createElement("figcaption");
+        heading.classList.add("figure-caption");
+        heading.textContent = `Year: ${image.year}`;
+        fig.appendChild(img);
+        fig.appendChild(heading);
+
+        imageContainer.appendChild(fig);
+      });
+    
   } catch (error) {
     console.error("Error fetching images:", error);
   }

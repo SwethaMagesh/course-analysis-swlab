@@ -25,7 +25,7 @@ def get_year_and_semester(code):
         # # return the latest year and semester
         results.sort(key=lambda x: x[0])
         return results[-1][0], results[-1][1]
-                    
+
     return (None, None)
 
 
@@ -74,8 +74,9 @@ def get_course_strength(code):
                 data = json.load(f)
                 for obj in data:
                     if list(obj.keys())[0] == code.lower():
-                        res.append(obj[code.lower()]['Total']+' in '+obj[code.lower()]['year'])
-        
+                        res.append(obj[code.lower()]['Total'] +
+                                   ' in '+obj[code.lower()]['year'])
+
     return '. '.join(res)
 
 
@@ -100,30 +101,32 @@ def get_course_grade_analysis(code):
     else:
         return '. '.join(grade_analysis)
 
+
 def analyse_and_append(grades, grade_analysis):
     top = 0
     top2 = 0
     top3 = 0
     if 'AP' in grades:
-        top = top + int(grades['AP'])  
+        top = top + int(grades['AP'])
     if 'AA' in grades:
         top = top + int(grades['AA'])
     if 'AB' in grades:
-        top2 = int(grades['AB'] )
+        top2 = int(grades['AB'])
     if 'BB' in grades:
-        top3 = int(grades['BB'] )
+        top3 = int(grades['BB'])
     total = int(grades['Total'])
     if total == '0':
         return
-    statement = 'In {}, {}% students scored A while {}% scored AB, {}% scored BB'.format(grades['year'],top*100//total, top2*100//total, top3*100//total)
+    statement = 'In {}, {}% students scored A while {}% scored AB, {}% scored BB'.format(
+        grades['year'], top*100//total, top2*100//total, top3*100//total)
     grade_analysis.append(statement)
-    
+
     return None
 
 
 def get_course_analysis(code):
     result = {}
-    code=code.upper()
+    code = code.upper()
 
     # get year and spring/autumn
     year, semester = get_year_and_semester(code)
@@ -131,8 +134,7 @@ def get_course_analysis(code):
         result['year'] = year
         result['semester'] = semester
     else:
-        result['title'] = 'Not Available'
-    
+        return None
 
     # get course details from csv file - venue, instructor, title, slot
     if 'year' in result and 'semester' in result:
@@ -142,7 +144,7 @@ def get_course_analysis(code):
             result['slot'] = slot
         if not title == None:
             result['title'] = title
-        
+
         if not venue == None:
             result['venue'] = venue
         if not instructor == None:
@@ -168,6 +170,3 @@ def get_course_analysis(code):
 
     # pack into a dict and return
     return result
-
-
-

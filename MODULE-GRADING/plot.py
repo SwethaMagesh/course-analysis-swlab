@@ -14,22 +14,26 @@ print(json_files)
 
 color_list = plt.cm.PiYG(np.linspace(0, 1, 10))
 color_list = color_list[::-1]
+
+
 for file in json_files:
-    print("FILE",file)
     with open(file) as f:
         data = json.load(f)
-        print(len(data))
         for course in data:
             # plot a simple plt and save it in a folder
             plt.figure()
             grades = list(course.values())[0]
+
             # get the values of grades to int from string
             grades = {k: int(v) for k, v in grades.items() if k != 'course' and k != 'year'}
+
             # plot the grades dictionary, maintain the order of keys and x axis labels as keys
             plt.bar(range(len(grades)-1), list(grades.values())[:-1], align='center', color=color_list)
+            
             # show y axis as integers and y value on bar
             for k,v in enumerate(list(grades.values())[:-1]):
                 plt.text(k, v, str(v), ha='center', va='bottom')
+                
             # add text at top right saying total number of students
             plt.text(0.9, 0.9, 'Total: '+str(grades['Total']), ha='center', va='bottom', transform=plt.gca().transAxes)
             plt.xticks(range(len(grades)-1), list(grades.keys())[:-1])
