@@ -1,38 +1,38 @@
 Course Code,Slot,Venue,Course Title,Instructor
 CS101,—,TBD,Computer Programming and Utilization,Prof. Ajit Rajwade
-CS614,12,CC,101 Advanced Compilers,Prof. Virendra Singh
-CS207,2,LH,301 Discrete Structures,Prof. Diwan A.A.
-CS618,10,CC,101 Program Analysis,Prof. Uday Khedker
-CS213,1,LH,301 Data Structures and Algorithms,Prof. Milind Sohoni
-CS626,1,CC,101 Speech and Natural Language Processing and the Web,Prof. Pushpak Bhattacharyya
-CS215,6,LH,102 Data Analysis and Interpretation,Prof. Suyash Awate
-CS631,5,CC,101,Prof. S. Sudarshan
-CS218,5,LA,002 Design and Analysis of Algorithms,Prof. Paritosh K. Pandya
-CS635,14,CC,101 Information Retrieval & Mining for Hypertext & the Web,Prof. Soumen Chakrabarti
+CS614,12,CC101,Advanced Compilers,Prof. Virendra Singh
+CS207,2,LH301,Discrete Structures,Prof. Diwan A.A.
+CS618,10,CC101,Program Analysis,Prof. Uday Khedker
+CS213,1,LH301,Data Structures and Algorithms,Prof. Milind Sohoni
+CS626,1,CC101,Speech and Natural Language Processing and the Web,Prof. Pushpak Bhattacharyya
+CS215,6,LH102,Data Analysis and Interpretation,Prof. Suyash Awate
+CS631,5,CC101,,Prof. S. Sudarshan
+CS218,5,LA002,Design and Analysis of Algorithms,Prof. Paritosh K. Pandya
+CS635,14,CC101,Information Retrieval & Mining for Hypertext & the Web,Prof. Soumen Chakrabarti
 CS224,5,VMCC33,Computer Networks,Prof. Vinay J. Ribeiro
-CS675,10,CC,103 Computer Graphics,Prof. Parag Chaudhuri
-CS228,5,LH,101 Logic for Computer Science,Prof. S. Krishna
-CS683,4,CC,101 Advanced Computer Architecture,Prof. Virendra Singh
+CS675,10,CC103,Computer Graphics,Prof. Parag Chaudhuri
+CS228,5,LH101,Logic for Computer Science,Prof. S. Krishna
+CS683,4,CC101,Advanced Computer Architecture,Prof. Virendra Singh
 CS251,LX/3,Logic,for Computer Science,Prof. Kavi Arya
 CS699,LX,SL,Software Lab,Prof. Bhaskaran Raman
 CS293,L4,SL,Data Structures and Algorithms Lab,Prof. Supratik Chakraborty
-CS725,11,LH,101 Foundations of Machine Learning,Prof. Preethi Jyothi
-CS310,6,LA,001 Automata Theory,Prof. G Sivakumar
-CS741,12,CC,103 Advanced Network Security and Cryptography,Prof. Bernard Menezes
+CS725,11,LH101,Foundations of Machine Learning,Prof. Preethi Jyothi
+CS310,6,LA001,Automata Theory,Prof. G Sivakumar
+CS741,12,CC103,Advanced Network Security and Cryptography,Prof. Bernard Menezes
 CS333,L1,SL,Operating Systems Lab,Prof. Puru Kulkarni / Umesh Bellur
-CS742,5,CC,103 Foundations of Network Security and Cryptography,Prof. Kameswari Chebrolu
+CS742,5,CC103,Foundations of Network Security and Cryptography,Prof. Kameswari Chebrolu
 CS335,L3,SL,,Prof. Abir De
-CS744,9,CC,103 Design and Engineering of Computing Systems,Prof. Mythili Vutukuru
-CS337,12,LH,101 Artificial Intelligence and Machine Learning,Prof. Abir De
-CS747,14,LA,001 Foundations of Intelligent and Learning Agents,Prof. Shivaram Kalyanakrishnan
-CS347,2,CC,103 Operating Systems,Prof. Puru Kulkarni / Umesh Bellur
-CS761,13,SIC,201 Derandomization and Pseudorandomness,Prof. Rohit Gurjar
-CS433,13,CC,101 Automated Reasoning,Prof. Ashutosh Kumar Gupta
-CS770,13,CC,105 Process Engineering,Prof. R. K. Joshi
-CS449,2,CC,101 Topics in Artificial Intelligence Programming,Prof. G Sivakumar
-CS771,2,CC,105 Foundations of verification and automated reasoning,Prof. Bharat Adsul
-CS475/675,10,CC,103 Computer Graphics,Prof. Parag Chaudhuri
-CS773,6,CC,105 Computer Architecture for Performance and Security,Prof. Biswabandan Panda
-CS601,8,CC,103 Algorithms and Complexity,Prof. Mrinal Kumar
-CS780,6,SIC,301 Critical Thinking for the Digital Age,Prof. Om Damani
-CS604,9,CC,105 Combinatorics,Prof. Swaprava Nath
+CS744,9,CC103,Design and Engineering of Computing Systems,Prof. Mythili Vutukuru
+CS337,12,LH101,Artificial Intelligence and Machine Learning,Prof. Abir De
+CS747,14,LA001,Foundations of Intelligent and Learning Agents,Prof. Shivaram Kalyanakrishnan
+CS347,2,CC103,Operating Systems,Prof. Puru Kulkarni / Umesh Bellur
+CS761,13,SIC201,Derandomization and Pseudorandomness,Prof. Rohit Gurjar
+CS433,13,CC101,Automated Reasoning,Prof. Ashutosh Kumar Gupta
+CS770,13,CC105,Process Engineering,Prof. R. K. Joshi
+CS449,2,CC101,Topics in Artificial Intelligence Programming,Prof. G Sivakumar
+CS771,2,CC105,Foundations of verification and automated reasoning,Prof. Bharat Adsul
+CS475/675,10,CC103,Computer Graphics,Prof. Parag Chaudhuri
+CS773,6,CC105,Computer Architecture for Performance and Security,Prof. Biswabandan Panda
+CS601,8,CC103,Algorithms and Complexity,Prof. Mrinal Kumar
+CS780,6,SIC301,Critical Thinking for the Digital Age,Prof. Om Damani
+CS604,9,CC105,Combinatorics,Prof. Swaprava Nath

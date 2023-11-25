@@ -7,9 +7,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 # set routes
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
+
 @app.route('/api/v1.0/courseDetails', methods=['GET'])
 def process_get_request():
     courseCode = request.args.get('code')
