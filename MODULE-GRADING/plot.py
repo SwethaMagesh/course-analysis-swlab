@@ -1,6 +1,7 @@
 # take the output json files and plot graph for all courses as separate graphs
 import json
 import matplotlib.pyplot as plt
+import matplotlib as mpl
 import numpy as np
 import os
 
@@ -9,7 +10,10 @@ json_files = [pos_json for pos_json in os.listdir('./') if pos_json.endswith('.j
 print(json_files)
 
 # for each json file, plot the graph in a folder named by filename
+# diverging map of RdBu
 
+color_list = plt.cm.PiYG(np.linspace(0, 1, 10))
+color_list = color_list[::-1]
 for file in json_files:
     print("FILE",file)
     with open(file) as f:
@@ -19,11 +23,10 @@ for file in json_files:
             # plot a simple plt and save it in a folder
             plt.figure()
             grades = list(course.values())[0]
-            print(grades)
             # get the values of grades to int from string
             grades = {k: int(v) for k, v in grades.items() if k != 'course' and k != 'year'}
             # plot the grades dictionary, maintain the order of keys and x axis labels as keys
-            plt.bar(range(len(grades)-3), list(grades.values())[:-3], align='center')
+            plt.bar(range(len(grades)-3), list(grades.values())[:-3], align='center', color=color_list)
             # show y axis as integers and y value on bar
             for k,v in enumerate(list(grades.values())[:-3]):
                 plt.text(k, v, str(v), ha='center', va='bottom')
