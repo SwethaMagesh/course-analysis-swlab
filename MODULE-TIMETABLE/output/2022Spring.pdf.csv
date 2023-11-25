@@ -5,11 +5,9 @@ CS104,4C,LA202,Software Systems Lab,Prof. Kameswari Chebrolu
 CS695,5,FCK,Topics in Virtualization and Cloud Computing,Prof. Purushottam Kulkarni
 CS207,5,CC103,Discrete Structures,Prof. Manoj Prabhakaran
 CS719,3,CC105,Topics in Mathematical Foundations of Formal,Prof. Bharat Adsul
-CS207,5,CC103,Discrete Structures,Prof. Manoj Prabhakaran
 CS726,3,LA002,Advanced Machine Learning,Prof. S. Sarawagi
 CS213,5,LA001,Data Structures and Algorithms,Prof. Sohoni Milind
 CS728,9,CC105,Organization of Web Information,Prof. Chakrabarti Soumen
-CS213,5,LA001,Data Structures and Algorithms,Prof. Sohoni Milind
 CS736,5,CC101,Medical Image Computing,Prof. Suyash P. Awate
 CS218,10,LH302,Design and Analysis of Algorithms,Prof. Rohit Gurjar
 CS745,12,LC201,Principles of Data and System Security,Prof. Virendra Singh
@@ -39,4 +37,4 @@ CS779,11,CC101,Extremal Combinatorics,Prof. Vishwanathan Sundar
 CS603,9,CC101,Geometric Algorithms,Prof. Sujoy Bhore
 CS781,8,SIC301,Formal Methods in Machine Learning,Prof. Supratik Chakraborty
 CS681,10,CC101,Performance Analysis of Computer Systems and Network,Prof. Varsha Apte
-CS899,XC&,XD,SL2 Communication Skills,Prof. Varsha Apte
+CS899,XC,-,XD SL2 Communication Skills,Prof. Varsha Apte

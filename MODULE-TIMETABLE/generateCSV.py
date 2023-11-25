@@ -9,10 +9,12 @@ fname = sys.argv[1]
 processed_rows = []
 with open(fname, 'r', newline='') as infile:
     reader = csv.reader(infile)
-
+    processed_codes = []
     for row in reader:
-        # Task 1: Check if the row has 4 columns and starts with 'cs' in the 1st column
-        if len(row) == 4 and row[0].lower().startswith('cs'):
+        # Task 1: Check if the row has 4 columns  and starts with 'cs' in the 1st column
+
+        if len(row) == 4 and row[0].lower().startswith('cs') and row[0] not in processed_codes:
+            processed_codes.append(row[0])
             if(len(row[2])) == 1:
                 row[2] = '-'
             # Task 2: Split the last column where 'Prof' begins
@@ -21,8 +23,11 @@ with open(fname, 'r', newline='') as infile:
             title = last_column_parts[0].strip()
             row = row[:-1]
             # Write the processed row to the output file
+            if len(title) == 0:
+                continue
             row.append(title)
             row.append('Prof. ' + last_column_parts[-1].strip() )
+
             processed_rows.append(row)
 
 

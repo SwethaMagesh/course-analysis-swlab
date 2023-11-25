@@ -24,7 +24,7 @@ fi
 sed -i 's/CS /\nCS/g'  "$just_tt2" 
 sed -i 's/^\(CS[0-9]*\) M/\1/' "$just_tt2"  
 # handled minors
-sed -i 's/\([A-Z][A-Z]\) \([0-9]*\)/\1\2/g' "$just_tt2"
+sed -i 's/\([A-Z][A-Z]\) \([0-9]\+\)/\1\2/g' "$just_tt2"
 # handled split venues
 grep -v '^[[:space:]]*$' "$just_tt2" > output.txt
 tail -n +3 output.txt > output_file.txt
