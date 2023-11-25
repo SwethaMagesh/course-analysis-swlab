@@ -25,6 +25,7 @@ with open(fname, 'r', newline='') as infile:
             row.append('Prof. ' + last_column_parts[-1].strip() )
             processed_rows.append(row)
 
+
 with open(fname, 'w', newline='') as outfile:
     writer = csv.writer(outfile)
     # Task 3: Write the header row

@@ -25,6 +25,7 @@ sed -i 's/CS /\nCS/g'  "$just_tt2"
 sed -i 's/^\(CS[0-9]*\) M/\1/' "$just_tt2" 
 grep -v '^[[:space:]]*$' "$just_tt2" > output.txt
 tail -n +3 output.txt > output_file.txt
-awk '{printf "%s,%s,%s,%s\n", $1, $2, $3, substr($0, index($0,$4))}' output_file.txt > $1".csv"
+
+awk '{printf "%s,%s,%s,%s\n", $1, $2, $3, substr($0, index($0,$4))}' output_file.txt > ./output/"$1.csv"
 
 
