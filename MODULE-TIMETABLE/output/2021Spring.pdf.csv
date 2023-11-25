@@ -1,9 +1,7 @@
 Course Code,Slot,Venue,Course Title,Instructor
-CS101,?,-,Computer Programming and Utilization,Prof. Parag Chaudhuri
 CS684,9,CC101,Embedded Systems,Prof. K. Arya
 CS152,4,-,Abstractions and Paradigms for Programming,Prof. Joshi Rushikesh K.
 CS719,2,SIC205,Topics in Mathematical Foundations of Formal,Prof. Bharat Adsul
-CS154,L3,-,Programming Paradigms Laboratory,Prof. Joshi Rushikesh K.
 CS726,9,SIC301,Advanced Machine Learning,Prof. S. Sarawagi
 CS213,5,LA201,Data Structures and Algorithms,Prof. Sohoni Milind
 CS728,8,CC105,Organization of Web Information,Prof. Chakrabarti Soumen
@@ -15,21 +13,16 @@ CS228,1,LA202,Logic for Computer Science,Prof. Krishna S.
 CS743,3,CC103,Wireless Networks,Prof. Bhaskar Raman
 CS230,2,LA202,Digital Logic Design and Computer Architecture,Prof. Virendra Singh
 CS748,13,LT106,Advances in Intelligent and Learning Agents,Prof. Shivaram Kalyanakrishnan
-CS232,LX,-,Digital Logic Design and Computer Architecture Lab,Prof. Virendra Singh
 CS752,6,LH101,System Dynamics: Modeling & Simulation for,Prof. Om P. Damani
-CS252,L4,-,Computer Networks Lab,Prof. Kameswari Chebrolu
 CS753,14,LA001,Automatic Speech Recognition,Prof. Preethi Jyothi
 CS302,6,LH102,Implementation of Programming Languages,Prof. Uday Khedkar
 CS754,14,CC103,Advanced Image Processing,Prof. Ajit V. Rajwade
 CS310,3,LA101,Automata Theory,Prof. Sivakumar G.
 CS758,10,SIC205,Advanced Tools from Modern Cryptography,Prof. Manoj Prabhakaran
-CS316,LX,-,Implementation of Programming Languages Lab,Prof. Uday Khedkar
 CS762,1,SEMINAR,HALL ? Advanced Blockchain Technology,Prof. Vinay J. Ribeiro
 CS317,2,LA002,Database and Information Systems,Prof. Sudarshan S.
 CS763,11,CC103,Computer Vision,Prof. Sharat Chandran
 CS347,5,LA002,Operating Systems,Prof. Mythili Vutukuru
-CS764,L4,-,Computer Vision Lab,Prof. Sharat Chandran
-CS387,L2,-,Database and Information Systems Lab,Prof. Sudarshan S.
 CS766,15,CC103,Analysis of Concurrent Programs​,Prof. Krishna S.
 CS408,4,SIC205,Graph Theory,Prof. Ranade A.
 CS769,8,LC102,Optimization in Machine Learning,Prof. G.Ramakrishnan
@@ -42,4 +35,3 @@ CS779,9,SIC205,Extremal Combinatorics,Prof. Vishwanathan Sundar
 CS613,8,SIC205,Design & Implementation of Functional Programming,Prof. Sanyal Amitabh
 CS781,14,-,Formal Methods in Machine Learning,Prof. Supratik Chakraborty
 CS681,8,CC101,Performance Analysis of Computer Systems and Network,Prof. Varsha Apte
-CS899,XC+XD,-,Communication Skills,Prof. Varsha Apte

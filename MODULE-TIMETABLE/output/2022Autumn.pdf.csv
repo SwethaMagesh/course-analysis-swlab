@@ -1,5 +1,4 @@
 Course Code,Slot,Venue,Course Title,Instructor
-CS101,—,TBD,Computer Programming and Utilization,Prof. Ajit Rajwade
 CS614,12,CC101,Advanced Compilers,Prof. Virendra Singh
 CS207,2,LH301,Discrete Structures,Prof. Diwan A.A.
 CS618,10,CC101,Program Analysis,Prof. Uday Khedker
@@ -12,13 +11,9 @@ CS224,5,VMCC33,Computer Networks,Prof. Vinay J. Ribeiro
 CS675,10,CC103,Computer Graphics,Prof. Parag Chaudhuri
 CS228,5,LH101,Logic for Computer Science,Prof. S. Krishna
 CS683,4,CC101,Advanced Computer Architecture,Prof. Virendra Singh
-CS251,LX/3,Logic,for Computer Science,Prof. Kavi Arya
-CS699,LX,SL,Software Lab,Prof. Bhaskaran Raman
-CS293,L4,SL,Data Structures and Algorithms Lab,Prof. Supratik Chakraborty
 CS725,11,LH101,Foundations of Machine Learning,Prof. Preethi Jyothi
 CS310,6,LA001,Automata Theory,Prof. G Sivakumar
 CS741,12,CC103,Advanced Network Security and Cryptography,Prof. Bernard Menezes
-CS333,L1,SL,Operating Systems Lab,Prof. Puru Kulkarni / Umesh Bellur
 CS742,5,CC103,Foundations of Network Security and Cryptography,Prof. Kameswari Chebrolu
 CS744,9,CC103,Design and Engineering of Computing Systems,Prof. Mythili Vutukuru
 CS337,12,LH101,Artificial Intelligence and Machine Learning,Prof. Abir De
