@@ -32,11 +32,12 @@ function populateCourseDetails(courseCode) {
         "code",
         "title",
         "instructor",
+        "year",
+        "semester",
         "slot",
+        "clashing_courses",
         "venue",
         "difficulty",
-        "projects",
-        "recommended",
         "strength",
       ];
 
@@ -51,10 +52,11 @@ function populateCourseDetails(courseCode) {
             key = "Course Code";
           }
 
-          if (key == "projects") {
-            key = "Contains Projects";
+          if (key == "clashing_courses") {
+            key = "Clashing Courses";
           }
-          attributeCell.textContent = formatKey(key);
+          
+          attributeCell.innerHTML = formatKey(key);
           attributeCell.classList.add("font-weight-bold");
           row.appendChild(attributeCell);
           row.appendChild(valueCell);
@@ -89,6 +91,11 @@ async function fetchImages(filename) {
     const data = await response.json();
 
     const imageContainer = document.getElementById("imageContainer");
+    if (data.image_paths.length === 0) {
+      console.log(data);
+      imageContainer.innerHTML = "No grading stats found.";
+      return;
+    }
     imageContainer.innerHTML = "";
 
     data.image_paths.forEach((image) => {
@@ -97,6 +104,8 @@ async function fetchImages(filename) {
       img.alt = `Graph analysis for ${image.year} year`;
 
       const heading = document.createElement("h6");
+      heading.classList.add("text-center");
+      heading.classList.add("font-weight-bold");
       heading.textContent = `Year: ${image.year}`;
 
       imageContainer.appendChild(heading);

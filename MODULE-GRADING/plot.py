@@ -26,16 +26,22 @@ for file in json_files:
             # get the values of grades to int from string
             grades = {k: int(v) for k, v in grades.items() if k != 'course' and k != 'year'}
             # plot the grades dictionary, maintain the order of keys and x axis labels as keys
-            plt.bar(range(len(grades)-3), list(grades.values())[:-3], align='center', color=color_list)
+            plt.bar(range(len(grades)-1), list(grades.values())[:-1], align='center', color=color_list)
             # show y axis as integers and y value on bar
-            for k,v in enumerate(list(grades.values())[:-3]):
+            for k,v in enumerate(list(grades.values())[:-1]):
                 plt.text(k, v, str(v), ha='center', va='bottom')
             # add text at top right saying total number of students
             plt.text(0.9, 0.9, 'Total: '+str(grades['Total']), ha='center', va='bottom', transform=plt.gca().transAxes)
-            plt.xticks(range(len(grades)-3), list(grades.keys())[:-3])
+            plt.xticks(range(len(grades)-1), list(grades.keys())[:-1])
             plt.xlabel('Grade')
             plt.ylabel('Number of students')  
             plt.title(list(course.keys())[0])
+            if len(grades.values())>2:
+                max_val = max(list(grades.values())[:-1])
+            else:
+                max_val = 5
+            plt.axis(ymin=0, ymax=max_val+10)
+           
             file_saved = file.split('.')[0]+'/'
             if not os.path.exists(file_saved):
                 os.makedirs(file_saved)

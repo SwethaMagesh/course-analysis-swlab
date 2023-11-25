@@ -130,6 +130,9 @@ def get_course_analysis(code):
     if year != None and semester != None:
         result['year'] = year
         result['semester'] = semester
+    else:
+        result['title'] = 'Not Available'
+    
 
     # get course details from csv file - venue, instructor, title, slot
     if 'year' in result and 'semester' in result:
@@ -139,6 +142,7 @@ def get_course_analysis(code):
             result['slot'] = slot
         if not title == None:
             result['title'] = title
+        
         if not venue == None:
             result['venue'] = venue
         if not instructor == None:
@@ -147,7 +151,8 @@ def get_course_analysis(code):
     # get clashing courses from csv file for current sem and year
     if 'slot' in result:
         clashing_courses = get_clashing_courses(code, slot, year, semester)
-        result['clashing_courses'] = clashing_courses
+        output = ', '.join(clashing_courses)
+        result['clashing_courses'] = output
 
     # get course strength from grading stats (avg?)
     strength = get_course_strength(code)
