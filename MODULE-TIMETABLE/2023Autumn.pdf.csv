@@ -1,0 +1,45 @@
+Course Code,Slot,Venue,Course Title,Instructor
+CS101,6,-,101 6 & 10 LA202 Computer Programming and Utilization,Prof. Suyash Awate
+CS604,9,SIC301,Combinatorics,Prof. Sundar Vishwanathan
+CS105,4,LA202,Discrete Structures,Prof. Akshay S.
+CS614,10,CC105,Advanced Compilers,Prof. Manas Thakur
+CS152,2,SIC205,Abstractions and Paradigms for Programming,Prof. Manas Thakur
+CS618,9,SIC205,Program Analysis,Prof. Uday Khedker
+CS154,L,-,Paradigms for Programming Laboratory,Prof. Manas Thakur
+CS626,12,LH301,Speech and Natural Language Processing and the Web,Prof. Pushpak Bhattacharyya
+CS207,2,LH101,Discrete Structures,Prof. Diwan A.A.
+CS631,5,CC101,Implementation Techniques for Relational Database Systems,Prof. S. Sudarshan
+CS213,1,LH101,Data Structures and Algorithms,Prof. Ashutosh Kumar Gupta
+CS635,11,LT002,Information Retrieval & Mining for Hypertext & the Web,Prof. Soumen Chakrabarti
+CS215,8,LH101,Data Analysis and Interpretation,Prof. Pushpak
+CS663,12,LH101,Fundamentals of Digital Image Processing,Prof. Ajit V. Rajwade
+CS218,5,LA202,Design and Analysis of Algorithms,Prof. Abhiram Ranade
+CS675,11,SIC305,Computer Graphics,Prof. Parag Chaudhuri
+CS224,5,CC103,Computer Networks,Prof. Vinay J. Ribeiro
+CS683,15,LC002,Advanced Computer Architecture,Prof. Biswabandan Panda
+CS228,5,LA201,Logic for Computer Science,Prof. S. Krishna
+CS699,LX,SL2,Software Lab,Prof. Bhaskaran Raman
+CS230,6,LA001,Digital Logic Design and Computer Architecture,Prof. Biswabandan Panda
+CS725,5,LA002,Foundations of Machine Learning,Prof. Sunita Sarawagi
+CS232,L2,SL2,Digital Logic Design and Computer Architecture Lab,Prof. Biswabandan Panda
+CS741,12,CC105,Advanced Network Security and Cryptography,Prof. Virendra Singh
+CS293,L4,SL2,Data Structures and Algorithms Lab,Prof. Ashutosh Kumar Gupta
+CS742,14,LA002,Foundations of Network Security and Cryptography,Prof. Kameswari Chebrolu
+CS310,4,LA002,Automata Theory,Prof. Paritosh K. Pandya
+CS744,12,CC103,Design and Engineering of Computing Systems,Prof. Varsha Apte
+CS333,L3,Sl2,Operating Systems Lab,Prof. Puru Kulkarni
+CS747,14,LA001,Foundations of Intelligent and Learning Agents,Prof. Shivaram Kalyanakrishnan
+CS335,L1,SL2,Artificial Intelligence and Machine Learning (Lab),Prof. Preethi Jyothi
+CS758,8,SIC305,Advanced Tools from Modern cryptography,Prof. Manoj Prabhakaran
+CS337,2,LH102,Artificial Intelligence and Machine Learning,Prof. Preethi Jyothi
+CS768,13,CC101,Learning with Graphs,Prof. Abir De
+CS347,6,LA002,Operating Systems,Prof. Puru Kulkarni
+CS770,13,LC001,Process Engineering,Prof. R. K. Joshi
+CS475,11,SIC305,Computer Graphics,Prof. Parag Chaudhuri
+CS771,1,SIC205,Foundations of verification and automated reasoning,Prof. Bharat Adsul
+CS6001,11,LA001,Game Theory and Algorithmic Mechanism Design,Prof. Swaprava Nath
+CS774,12,CC101,Spectral Graph Theory,Prof. Akash Kumar
+CS601,8,LC002,Algorithms and Complexity,Prof. Sujoy Bhore
+CS781,10,SIC201,Formal Methods in Machine Learning,Prof. Supratik Chakraborty
+CS602,10,SIC301,Applied Algorithms,Prof. Rohit Gurjar
+CS782,6,SIC205,Algebra and Computation,Prof. Milind Sohoni
