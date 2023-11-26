@@ -58,14 +58,15 @@ function populateCourseDetails(courseCode) {
           }
 
           if (key == "difficulty") {
+            key = "Grading Stats";
             row.classList.add("table-warning");
           }
 
           if (key == "strength") {
             row.classList.add("table-success");
           }
-
-          attributeCell.innerHTML = formatValue(key);
+        
+attributeCell.innerHTML = formatValue(key);
           attributeCell.classList.add("font-weight-bold");
           row.appendChild(attributeCell);
           row.appendChild(valueCell);
@@ -73,15 +74,14 @@ function populateCourseDetails(courseCode) {
         }
       });
 
-      // tableBody.style.display = "block";
-      // fetchImages(courseCode);
+      tableBody.style.display = "block";
+      fetchImages(courseCode);
     })
     .catch((error) => {
       console.error("Error fetching data:", error);
       tableBody.style.display = "none";
     });
 }
-
 
 function formatValue(value) {
   // Format the value as needed (e.g., capitalize the first letter)
@@ -95,32 +95,32 @@ async function fetchImages(filename) {
     const data = await response.json();
 
     const imageContainer = document.getElementById("imageContainer");
-   
-      imageContainer.innerHTML = "";
-      if(data.image_paths.length != 0){
-      imageContainer.innerHTML = "Grading Plots for Previous Years";}
-      imageContainer.classList.add("text-center");
-      imageContainer.classList.add("h4");
 
-      data.image_paths.forEach((image) => {
-        const fig = document.createElement("figure");
-        fig.classList.add("mx-auto");
+    imageContainer.innerHTML = "";
+    if (data.image_paths.length != 0) {
+      imageContainer.innerHTML = "Grading Plots for Previous Years";
+    }
+    imageContainer.classList.add("text-center");
+    imageContainer.classList.add("h4");
 
-        const img = document.createElement("img");
-        img.src = image.path;
-        img.alt = `Graph analysis for ${image.year} year`;
-        img.height = 400;
-        img.width = 600;
+    data.image_paths.forEach((image) => {
+      const fig = document.createElement("figure");
+      fig.classList.add("mx-auto");
 
-        const heading = document.createElement("figcaption");
-        heading.classList.add("figure-caption");
-        heading.textContent = `Year: ${image.year}`;
-        fig.appendChild(img);
-        fig.appendChild(heading);
+      const img = document.createElement("img");
+      img.src = image.path;
+      img.alt = `Graph analysis for ${image.year} year`;
+      img.height = 400;
+      img.width = 600;
 
-        imageContainer.appendChild(fig);
-      });
-    
+      const heading = document.createElement("figcaption");
+      heading.classList.add("figure-caption");
+      heading.textContent = `Year: ${image.year}`;
+      fig.appendChild(img);
+      fig.appendChild(heading);
+
+      imageContainer.appendChild(fig);
+    });
   } catch (error) {
     console.error("Error fetching images:", error);
   }
