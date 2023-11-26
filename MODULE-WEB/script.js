@@ -26,7 +26,7 @@ function populateCourseDetails(courseCode) {
       // Populate the table with the response data
       const tableBody = document.getElementById("courseDetailsBody");
       tableBody.innerHTML = "";
-      
+
       // append the following rows to table body. clear existing
       const order = [
         "title",
@@ -39,6 +39,15 @@ function populateCourseDetails(courseCode) {
         "difficulty",
         "strength",
       ];
+
+      // if data is empty then display no data found
+      if (Object.keys(data).length === 0) {
+        alert("No data found for the course code entered");
+        tableBody.style.display = "none";
+        const imageContainer = document.getElementById("imageContainer");
+
+        imageContainer.innerHTML = "";
+      }
 
       order.forEach((key) => {
         if (data.hasOwnProperty(key)) {
@@ -65,8 +74,8 @@ function populateCourseDetails(courseCode) {
           if (key == "strength") {
             row.classList.add("table-success");
           }
-        
-attributeCell.innerHTML = formatValue(key);
+
+          attributeCell.innerHTML = formatValue(key);
           attributeCell.classList.add("font-weight-bold");
           row.appendChild(attributeCell);
           row.appendChild(valueCell);
